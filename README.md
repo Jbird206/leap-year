@@ -7,4 +7,9 @@ Identifying Behaviors (also known as "Specifications")
 
 added some more specifications to eliminate redundant code;
 
-```if ((year % 4 === 0) && (year % 100 !== 0) || (year % 400 === 0)) {``` e.g. 
+```if ((year % 4 === 0) && (year % 100 !== 0) || (year % 400 === 0)) {
+      return true;
+    } else {
+      return false;
+    }
+  };``` e.g. 
